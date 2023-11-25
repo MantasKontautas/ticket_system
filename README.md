@@ -1,4 +1,4 @@
-# Event Ticket System
+# Event Ticket System (Next.JS, Tailwind CSS)
 
 This is a showcase of a ticket system, that was used similarly in one of my projects. It is intended to be simple, so no databases are used. The demo is hosted on [https://event-ticket-system.vercel.app/](https://event-ticket-system.vercel.app/).
 
