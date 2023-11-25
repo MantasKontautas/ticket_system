@@ -12,7 +12,11 @@ export default function Paid({ searchParams }) {
       </p>
       <p className="text-center m5 text-violet-500">Payment status: {status}</p>
       <p className="text-center m-5 font-bold">
-        To scan the ticket, open ticket_scanner.github.io/scan on mobile.
+        To scan the ticket, open{" "}
+        <a href="https://event-ticket-system.vercel.app/scan" className="underline">
+          https://event-ticket-system.vercel.app/scan
+        </a>{" "}
+        on mobile.
       </p>
 
       {status === "success" ? (
